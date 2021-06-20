@@ -1,5 +1,5 @@
 ---
-title: Cloud Stuff
+title: cloud
 layout: default
 ---
 <ul>

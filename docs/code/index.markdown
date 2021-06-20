@@ -1,5 +1,5 @@
 ---
-title: Coding
+title: code
 layout: default
 ---
 <ul>

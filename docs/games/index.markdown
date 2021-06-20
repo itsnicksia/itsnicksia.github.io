@@ -1,5 +1,5 @@
 ---
-title: Game Design & Development
+title: games
 layout: default
 ---
 <ul>

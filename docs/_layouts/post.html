@@ -19,7 +19,7 @@
 
         <header>
             <h1>{{ site.title }}</h1>
-            <h2>&lt;{{ page.title | default: site.title | default: site.github.repository_name }}&gt;</h2>
+            <h2>&lt;{{ page.categories | default: site.title | default: site.github.repository_name }}&gt;</h2>
             <h2>
                 <a href="/">[Index]</a>&nbsp;
                 <a href="/code">[Code]</a>&nbsp;
@@ -29,6 +29,9 @@
         </header>
         <hr>
         <section id="main_content">
+            <h6>{{ page.date | date: "%Y-%m-%d" }}</h6>
+            <h2>{{ page.title | default: site.title | default: site.github.repository_name }}</h2>
+
             {{ content }}
         </section>
 
