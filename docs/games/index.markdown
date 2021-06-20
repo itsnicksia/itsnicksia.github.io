@@ -7,9 +7,7 @@ layout: default
 <ul>
   {% assign posts = site.posts | where_exp:"page","page.categories contains 'games'" %}
   {% for post in posts %}
-    <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       {{ post.excerpt }}
-    </li>
   {% endfor %}
 </ul>
