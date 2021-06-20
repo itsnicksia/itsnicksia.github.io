@@ -1,9 +1,7 @@
 ---
-title: Games
+title: Game Design & Development
 layout: default
 ---
-# Game Design & Development
-
 <ul>
   {% assign posts = site.posts | where_exp:"page","page.categories contains 'games'" %}
   {% for post in posts %}

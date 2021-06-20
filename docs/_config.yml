@@ -27,11 +27,13 @@ url: "https://itsnicksia.github.io" # the base hostname & protocol for your site
 twitter_username: itsnicksia
 github_username:  itsnicksia
 domain: itsnicksia.github.io
+permalink: /:categories/:year/:title:output_ext
 
 # Build settings
 theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
