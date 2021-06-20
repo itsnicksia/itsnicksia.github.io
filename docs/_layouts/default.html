@@ -18,11 +18,13 @@
     <div class="inner">
 
         <header>
-            <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+            <h1>{{ site.title }}</h1>
+            <h2>{{ page.title | default: site.title | default: site.github.repository_name }}</h2>
             <h2>
-                <a href="/code">[Code]</a>
-                <a href="/cloud">[Cloud]</a>
-                <a href="/games">[Games]</a>
+                <a href="/">[Index]</a>&nbsp;
+                <a href="/code">[Code]</a>&nbsp;
+                <a href="/cloud">[Cloud]</a>&nbsp;
+                <a href="/games">[Games]</a>&nbsp;
         </header>
         <section id="downloads" class="clearfix">
             {% if site.show_downloads %}
