@@ -31,7 +31,7 @@ github_username:  jekyll
 domain: itsnicksia.github.io
 
 # Build settings
-theme: jekyll-theme-tactile
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
